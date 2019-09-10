@@ -1,6 +1,6 @@
 // Enda Carroll
 // Sept 2019
-// Function declarations for cuThomasBatch routine to solve batches of tridiagonal systems
+// Function declarations for cuThomasConstantBatch routine to solve batches of tridiagonal systems
 
 //   Copyright 2019 Enda Carroll
 
