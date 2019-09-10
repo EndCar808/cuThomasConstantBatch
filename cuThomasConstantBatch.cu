@@ -1,6 +1,6 @@
 // Enda Carroll
 // Sept 2019
-// Function declarations for cuThomasBatch routine to solve batches of tridiagonal systems
+// Function declarations for cuThomasConstantBatch routine to solve batches of tridiagonal systems
 
 //   Copyright 2019 Enda Carroll
 
@@ -77,7 +77,7 @@ void thomasFactorConstantBatch(double* la, double* lb, double* lc, int n) {
 * @param n  Size of the system being solved
 * @param m  Size of the batch 
 */
-__global__ void cuThomasBatch(double* la, double* lb, double* lc, double* d, int n, int m ) {
+__global__ void cuThomasConstantBatch(double* la, double* lb, double* lc, double* d, int n, int m ) {
 
 	int rowCurrent;
 	int rowPrevious;
